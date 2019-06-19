@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+/* head部分 */
+
+/* header部分 */
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    height:.87rem;
+    border-bottom:1px solid #e4e4e4;
+}
+header span{
+    color:#000000;
+    font-size:.36rem;
+}
+header span:nth-child(1){
+    margin-right:1.78rem;
+}
+header .active{
+    color:#77bc1f;
+}
+header i{
+    background: url(../img/icon-categories-search@2x.1bfb7350.png) 0px  0px no-repeat ;
+    background-size:.36rem .36rem;
+    width:.36rem;
+    height:.36rem;
+    position:absolute;
+    right:.36rem;;
+    top:.26rem;
+}
+/* section部分 */
+
+/* 圣杯布局 */
+
+
+/* 分类内容 */
+aside{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    width:1.6rem;
+    overflow-y:auto;
+}
+aside>div{
+    font-size:.32rem;
+    flex-shrink:0;
+    width:1.6rem;
+    height:1.46rem;
+    text-align: center;
+    background: #f9f9f9;
+    color:#262626;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+	padding:24%;
+}
+
+aside .active{
+     background: #77bc1f;
+     color:white;
+}
+aside .active::after{
+    position:absolute;
+    content:"";
+    width:0;
+    height:0;
+    right:0;
+    top:50%;
+    margin-top:-.24rem;
+    border:.24rem solid transparent;
+    border-right:.24rem solid white;
+}
+article{
+    flex:1;
+    overflow-y:auto;
+    height:100%;
+}
+
+.eve_article{
+    width:100%;
+    flex-wrap: wrap;
+    flex-shrink:1;
+}
+.art_active{
+    display:flex;
+}
+.goods_eve{
+    width:33.33%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.goods_eve img {
+    width:100%;
+}
+
+/* 发现内容 */
+.find_something{
+   flex-wrap: wrap;
+}
+.find_something a{
+    width:50%;
+}
+.find_something>a>img{
+    width:100%;
+}
+
+/* footer当前的选中状态 */
+footer .list i{
+    background-image:url(../img/icon-classify-active@2x.e357b1e3.png);
+}
+footer .list span{
+    color:#77bc1f;
+}
+
+
+
+/* 右下角按钮 */
+ /* 与首页不同,仅有商品按钮 */
+body .but_r_b{
+    display:flex;
+    width:.7rem;
+    height:.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position:fixed;
+    right:.2rem;
+    bottom:1.68rem;
+}
+

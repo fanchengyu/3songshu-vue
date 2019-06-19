@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+/* header部分 */
+header{
+    width:100%;
+    height:.88rem;
+    display:flex;
+    align-items: center;
+    font-size:.36rem;
+    color:black;
+    border-bottom:1px solid #e4e4e4;
+}
+header>span:first-child{
+    margin: 0 2.42rem 0 .3rem;
+}
+
+/* 手机号和验证码 */
+section{
+    border-top:.1rem solid #f9f9f9;
+}
+section div{
+    margin:0 .2rem;
+    height:.87rem;
+    display:flex;
+    align-items: center;
+}
+section .tel{
+    border-bottom:1px solid #dddddd;
+}
+section span{
+   font-size: .32rem;
+    color:black;
+    margin-right:.36rem;
+}
+section input{
+    color:#9d9d9d;
+    font-size:.24rem;
+    border:none;
+    outline:none;
+}
+.tel input{
+    flex:1;
+}
+.verification_code input{
+    width:3.58rem;
+}
+section .get_code{
+    padding-left:.24rem;
+    margin-right:0;
+    line-height: .87rem;
+    color:#9d9d9d;
+    border-left:1px solid #dddddd;
+}
+
+
+
+
+/* 注册按钮 */
+article{
+    flex:1;
+    background: #f9f9f9;
+}
+article .button{
+    margin: .5rem  .2rem .2rem;
+    background: #cecece;
+    width:7.1rem;
+    height:.82rem;
+    line-height: .82rem;
+    text-align: center;
+    color:white;
+    font-size:.32rem;
+    border-radius:.08rem;
+}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 圣杯  无*/
+
+/* header部分 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer当前的选中状态 */
+footer .mine>i{
+    background-image:url(../img/mine/icon-profile-active@2x.90c8d715.png);
+}
+footer .mine>span{
+    color:#77bc1f;
+}

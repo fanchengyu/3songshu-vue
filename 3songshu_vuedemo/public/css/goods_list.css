@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* 分类内容 */
+aside{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    width:1.6rem;
+    overflow-y:auto;
+}
+aside>div{
+    font-size:.32rem;
+    flex-shrink:0;
+    width:1.6rem;
+    height:1.46rem;
+    text-align: center;
+    background: #f9f9f9;
+    color:#262626;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+	padding:24%;
+}
+
+aside .active{
+     background: #77bc1f;
+     color:white;
+}
+aside .active::after{
+    position:absolute;
+    content:"";
+    width:0;
+    height:0;
+    right:0;
+    top:50%;
+    margin-top:-.24rem;
+    border:.24rem solid transparent;
+    border-right:.24rem solid white;
+}
+
+
+.eve_article{
+    width:100%;
+    flex-wrap: wrap;
+    flex-shrink:1;
+}
+.art_active{
+    display:flex;
+}
+.goods_eve{
+    width:33.33%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.goods_eve img {
+    width:100%;
+}
+
+/* 发现内容 */
+.find_something{
+   flex-wrap: wrap;
+}
+.find_something a{
+    width:50%;
+}
+.find_something>a>img{
+    width:100%;
+}
+
+/* footer当前的选中状态 */
+footer .list i{
+    background-image:url(../img/icon-classify-active@2x.e357b1e3.png);
+}
+footer .list span{
+    color:#77bc1f;
+}
+
+
+
+
+

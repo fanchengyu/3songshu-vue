@@ -1,0 +1,63 @@
+{
+    "coupon": [
+        {
+            "id": "49",
+            "content": "【会员福利券】 满39减2元",
+            "limit": "每人限兑10000件",
+            "spend": "100"
+        },
+        {
+            "id": "50",
+            "content": "【会员福利券】 满68减3元",
+            "limit": "每人限兑10000件",
+            "spend": "100"
+        },
+        {
+            "id": "51",
+            "content": "【会员福利券】 满85减5元",
+            "limit": "每人限兑10000件",
+            "spend": "100"
+        },
+        {
+            "id": "52",
+            "content": "【会员福利券】 满119减10元",
+            "limit": "每人限兑10000件",
+            "spend": "100"
+        },
+        {
+            "id": "53",
+            "content": "【会员福利券】 满148减15元",
+            "limit": "每人限兑10000件",
+            "spend": "100"
+        },
+        {
+            "id": "54",
+            "content": "运费抵用券",
+            "limit": "每人限兑10000件",
+            "spend": "4900"
+        }
+    ],
+    "fruit":[
+        {
+            "id": "55",
+            "pic":"./img/squirrel_currency/dae7ebf2b05b345fe4af451f7c2173f3_380x380.jpg",
+            "fruit_name": "爆破果果/草莓味软糖40g",
+            "fruit_price": "3.00",
+            "spend": "2000"
+        },
+        {
+            "id": "56",
+            "pic":"./img/squirrel_currency/2593f5d8873a536da0d4e5080f09c251_380x380.jpg",
+            "fruit_name": "Q弹鸡蛋干山椒味 240g",
+            "fruit_price": "9.00",
+            "spend": "4900"
+        },
+        {
+            "id": "57",
+            "pic":"./img/squirrel_currency/9e186bfa7aea9e84a0339db42d221c63_380x380.jpg",
+            "fruit_name": "辣条大礼包组合800g",
+            "fruit_price": "16.90",
+            "spend": "8000"
+        }
+    ]
+}

@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 圣杯 */
+body{
+    display:flex;
+    flex-direction:column;
+}
+.grail{
+    flex:1;
+    overflow-y: auto;
+}
+
+
+
+/* 签到部分 */
+hgroup{
+    width:100%;
+    height:3.65rem;
+    border-bottom:1px solid #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position:relative;
+}
+hgroup>a:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+hgroup>a:first-child>p:first-child{
+    color:#262626;
+    font-size:.3rem;
+}
+hgroup>a:first-child>h2{
+    font-size:.72rem;
+    color:#ff9601;
+    margin-bottom:.5rem;
+}
+hgroup>a:first-child>p:last-child{
+    height:.22rem;
+    color:#262626;
+}
+hgroup>a:nth-child(2){
+    width:1.94rem;
+    height:.6rem;
+    border-radius:.3rem;
+    color:white;
+    font-size:.3rem;
+    background: #77bc1f;
+    line-height:.6rem;
+    text-align: center;
+    margin:.2rem;
+}
+.sign_in{
+    position:absolute;
+    top:.94rem;
+    right:0;
+    width:1rem;
+    height:.46rem;
+    line-height:.46rem;
+    text-indent:.42rem;
+    font-size:.24rem;
+    color:white;
+    background: url(../img/squirrel_currency/icon-sign@2x.8786c47b.png) .08rem .08rem no-repeat #77bc1f;
+    background-size: .32rem .32rem;
+    border-radius:.23rem 0  0  .23rem;
+}
+
+/* 购物袋部分 */
+figure{
+    display:flex;
+}
+figure>a{
+    width:50%;
+    height:1rem;
+    display:flex;
+}
+figure>a div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+figure>a div>p:first-child{
+    font-size:.3rem;
+    color:black;
+}
+figure>a div>p:last-child{
+    font-size:.24rem;
+    color:#9d9d9d;
+}
+figure>a i{
+    display:block;
+    width:1.2rem;
+    height:1rem;
+    margin-left: .2rem;
+}
+figure>a:first-child{
+    border-right:1px solid #dddddd;
+}
+figure>a:first-child>i{
+    background:url(../img/squirrel_currency/icon-bag@2x.709b32f7.png) no-repeat;
+}
+figure>a:last-child>i{
+    background:url(../img/squirrel_currency/icon-change-list@2x.d419099a.png) no-repeat;
+}
+
+/* 兑换中心 */
+section{
+
+}
+section .convertion_top{
+    display:flex;
+    height:.8rem;
+    background: #f9f9f9;
+    align-items: center;
+}
+section .convertion_top i{
+    display:block;
+    width:.1rem;
+    height:.4rem;
+    background:#77bc1f;
+    margin-right: .15rem;
+}
+section .convertion_top span{
+    color:black;
+    font-size:.24rem;
+}
+
+section .convertion_content a{
+    width:49.2%;
+    border-bottom:.12rem solid #f9f9f9;
+    background: white;
+}
+.convertion_content a img{
+    width:100%;
+}
+.convertion_content a h2{
+    font-size:.3rem;
+    color:black;
+    font-weight:normal;
+}
+.convertion_content a  p{
+    font-size:.26rem;
+    color:#999999;
+    text-indent:.14rem;
+}
+.convertion_content a .spend{
+    display:flex;
+    align-items: center;
+}
+
+.convertion_content a .spend i{
+    margin-left:.2rem;
+    width:.26rem;
+    height:.26rem;
+    background: url(../img/squirrel_currency/icon-integral@2x.ba5969d3.png) no-repeat;
+    background-size: .26rem .26rem;
+}
+.convertion_content a  .spend span{
+    color:#77bc1f;
+    font-size:.28rem;
+}
+
+/* 新品尝鲜 */
+article{
+
+}
+article .fresh_top{
+    border-bottom:.12rem solid #f9f9f9;
+}
+article .fresh_top>img{
+    width:100%;
+}
+article .fresh_content{
+    /* background:#f9f9f9; */
+    display:flex;
+    flex-wrap: wrap;
+}
+.fresh_content a{
+    width:50%;
+    border-bottom:.12rem solid #f9f9f9;
+    text-indent:.14rem;
+}
+.fresh_content a:nth-child(odd){
+    border-right:.12rem solid #f9f9f9;
+}
+.fresh_content a>p:nth-child(2){
+    color:black;
+    font-size:.3rem;
+}
+.fresh_content a>p:nth-child(3){
+    color:#999999;
+    font-size:.24rem;
+}
+.fruit_price{
+    display:flex;
+    align-items: center;
+}
+.fruit_price>span:nth-child(1),.fruit_price>span:nth-child(2){
+    font-size:.24rem;
+    color:#ee2e52;
+    font-weight:800;
+}
+.fruit_price>span:nth-child(4){
+    color:#77bc1f;
+    font-size:.24rem;
+    font-weight:800;
+}
+.fruit_price i{
+    width:.30rem;
+    height:.30rem;
+    background:url(../img/squirrel_currency/icon-integral@2x.ba5969d3.png) no-repeat;
+    background-size:.28rem  .28rem;
+}
+/* footer部分当前的选中状态 */
+footer .shopping>i{
+    background-image:url(../img/icon-integral@2x.ba5969d3.png);
+}
+footer .shopping>span{
+    color:#77bc1f;
+}
+

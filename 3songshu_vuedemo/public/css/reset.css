@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,figure { margin:0; padding:0; }
+
+fieldset, c{ border:none; }
+
+img,span,a{display: block;}
+img{border:none}
+
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+
+ul, ol ,li{ list-style:none; }
+
+body { color:#333; font:12px "微软雅黑","SimSun","宋体","Arial Narrow",HELVETICA; background:#fff;}
+i {font-style: normal;}
+a { color:#666; text-decoration:none; }
+/*清除浮动*/
+.clear{clear:both}
+*{box-sizing:border-box}
+body,html{
+    height: 100%;
+    overflow: hidden;
+}
+
+/* footer部分 */
+footer{
+    height:.97rem;
+    align-items: center;
+    display:flex;
+    justify-content: space-around;
+    font-size:.24rem;
+    color:#5c5c5c;
+    border-top:.02rem solid #e4e4e4;
+}
+footer a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer  span{
+    line-height: .4rem;
+}
+footer  i{
+    width:.40rem;
+    height:.40rem;
+     background-size:.36rem .36rem;
+     background-position: center;
+     background-repeat:no-repeat;
+}
+
+footer .index i{
+    background-image:url(../img/icon-home@2x.7a254bff.png);
+}
+footer .list i{
+    background-image:url(../img/icon-classify@2x.534fd4d1.png);
+}
+footer .shopping i{
+    background-image:url(../img/icon-privilege@2x.a56a9709.png);
+}
+footer .cards  i{
+    background-image:url(../img/icon-cart@2x.2ab995f2.png);
+}
+footer .mine i{
+    background-image:url(../img/icon-profile@2x.bad16eb6.png);
+}
+
+/* 右下角的返回按钮 */
+.but_r_b{
+    width:.7rem;
+    height:2.6rem;
+    flex-direction: column;
+    justify-content: space-between;
+    position:fixed;
+    right:.2rem;
+    bottom:1.68rem;
+    z-index:3;
+}
+.but_r_b  i{
+    display:block;
+    width:.7rem;
+    height:.7rem;
+    border-radius:50%;
+}
+.serch_a{
+    margin: .2rem 0;
+}
+.return_r_b{
+    background: url(../img/icon-stick@2x.e197d1fd.png) no-repeat center;
+    background-size:.7rem .7rem;
+}
+.search_r_b{
+    background: url(../img/icon-search@2x.4ae73b33.png) no-repeat center #77bc1f;
+    background-size:.35rem  .35rem;
+}
+.shopping_r_b{
+    background: url(../img/icon-chat@2x.9292f586.png) no-repeat center #77bc1f;
+    background-size:.35rem  .35rem;
+}
+
+
+
+

@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 圣杯 */
+body{
+    display:flex;
+    flex-direction:column;
+}
+section{
+    flex:1;
+    overflow-y: auto;
+}
+
+/* header部分 */
+header{
+    width:100%;
+    height:.86rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+    font-size:.32rem;
+}
+header>.pre_page{
+    margin-left:.24rem;
+}
+header .direct{
+    font-size:.26rem;
+    margin-right:.16rem;
+}
+/* 免运费部分 */
+figure{
+    padding: 0 .18rem;
+    width:100%;
+    height:.66rem;
+    display: flex;
+    justify-content: space-between;
+    background: #f9c0cb;
+    opacity:0.6;
+    align-items: center;
+}
+figure>span:first-child{
+    color:white;
+    font-size:.3rem;
+
+}
+figure>span:last-child{
+    color:black;
+    font-size:.24rem;
+    display:flex;
+    align-items: center;
+}
+figure .gt{
+    font-size:.22rem;
+    line-height:.22rem;
+    width:.24rem;
+    height:.24rem;
+    border:1px solid black;
+    border-radius:50%;
+    text-align: center;
+}
+
+/* 购物车部分 */
+section{
+    widows: 100%;
+    background:#f9f9f9;
+
+}
+section .eve_goods{
+    width:100%;
+    display:flex;
+    padding: 0  .18rem 0 .08rem;
+    align-items: center;
+    height:1.8rem;
+    margin-bottom:.1rem;
+    position:relative;
+    background: white;
+}
+ .check{
+    width:.36rem;
+    height:.36rem;
+    border:1px solid black;
+    border-radius:50%;
+}
+ .checked{
+    border:none;
+    background: url(../img/carts/check.gif) 1px 1px;
+}
+.eve_goods img{
+    width:1.36rem;
+    height:1.36rem;
+    border:.02rem solid #dddddd;
+    border-radius:0.06rem;
+    margin: 0 .2rem;
+}
+.eve_goods .g_details{
+
+}
+.g_details>span:first-child{
+    color:black;
+    font-size:.28rem;
+}
+.g_details>span:nth-child(2){
+    font-size:.28rem;
+    color:#ee2e52;
+    line-height:.5rem;
+}
+.g_details>.computed{
+    width:1.92rem;
+    height:.42rem;
+    border:.02rem solid #dddddd;
+    border-radius:.05rem;
+    line-height:.42rem;
+    display:flex;
+    text-align: center;
+    font-size:.22rem;
+    color:black;
+}
+.computed>span{
+    width:.54rem;
+}
+.computed>span:first-child{
+    border-right:.02rem solid  #dddddd;
+}
+.computed>span:last-child{
+    border-left:.02rem solid  #dddddd;
+}
+.computed>input{
+    text-align: center;
+    font-size:.22rem;
+    color:black;
+    width:.8rem;
+    outline:none;
+    border:none;
+}
+.eve_goods p{
+    color:#999999;
+    font-size:.24rem;
+    position:absolute;
+    top:.3rem;
+    right:.2rem;
+}
+/* 结算部分 */
+article{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left:.08rem;
+   height:.9rem;
+   border-top:1px solid #dcdcdc;
+}
+.check_full{
+    display: flex;
+    align-items: center;
+}
+.check_full>span{
+    padding-left:.14rem;
+}
+.check_right{
+    height:100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.total_prices{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.total_prices .cope_with{
+    font-size:.24rem;
+    color:black;
+    display:flex;
+}
+.total_prices .cope_with>span{
+    color:#ee2e52;
+    padding:0 .12rem;
+}
+.total_full{
+    display:flex;
+    font-size:.24rem;
+    color:#999999;
+}
+.total_full>span{
+    padding:0 .12rem;
+}
+
+.goto_settle{
+    margin-left:.04rem;
+    width:2.02rem;
+    height:100%;
+    background:#77bc1f;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.goto_settle>span:nth-child(1){
+    font-size:.36rem;
+}
+.goto_settle>span:nth-child(2){
+    font-size:.24rem;
+}
+
+
+/* footer当前的选中状态 */
+footer .cards>i{
+    background-image:url(../img/icon-cart-active@2x.a8df4534.png);
+}
+footer .cards>span{
+    color:#77bc1f;
+}

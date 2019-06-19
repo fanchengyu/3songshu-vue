@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    display:flex;
+    flex-direction:column;
+}
+/* header部分 */
+header{
+    width:100%;
+    height:.88rem;
+    display:flex;
+    align-items: center;
+    font-size:.36rem;
+    color:black;
+}
+header>span:first-child{
+    margin: 0 2.42rem 0 .3rem;
+}
+/* banner部分 */
+.banner>img{
+    width:100%;
+    height:200px;
+}
+
+/* 登陆输入部分 */
+section{
+
+}
+section>div{
+    height:.87rem;
+    margin:0 .2rem 0 .2rem;
+}
+section>div{
+    border-bottom:1px solid #dddddd;
+    display:flex;
+    align-items: center;
+}
+section>.password{
+    border:none;
+}
+section i{
+    width:.34rem;
+    height:.34rem;
+    margin:0 .35rem 0 .15rem;
+}
+section>.telphone i{
+    background: url(../img/login/icon-username@2x.e334a0d2.png) no-repeat center;
+}
+section>.password i{
+    background: url(../img/login/icon-password@2x.6a424894.png) no-repeat center;
+}
+section input{
+    flex:1;
+    height:.48rem;
+    background: #e8f0fe;
+    border:none;
+    outline:none;
+    color:#8c8c8c;
+    font-size:.26rem;
+}
+
+/* 登录按钮部分 */
+article{
+    flex:1;
+    background: #f9f9f9;
+}
+article .button{
+    margin: .5rem  .2rem .2rem;
+    background: #cecece;
+    width:7.1rem;
+    height:.82rem;
+    line-height: .82rem;
+    text-align: center;
+    color:white;
+    font-size:.32rem;
+    border-radius:.08rem;
+}
+.register_forget{
+    display: flex;
+    justify-content: space-between;
+    color:#262626;
+    font-size:.28rem;
+    margin: 0 .25rem;
+}
+
+
+
+
+
+
